@@ -12,6 +12,11 @@ end
 
 
 
+josh = Tutor.new("Josh")
+roger = Student.new("Roger")
+math_class = Course.new(josh, roger, "math")
+
+p Course.all
 
 
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #

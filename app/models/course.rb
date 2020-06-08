@@ -1,3 +1,22 @@
 class Course
 
-end
+    @@all = []
+
+    attr_accessor :tutor, :student, :course_name
+  
+    def initialize(tutor, student, course_name)
+        @tutor = tutor
+        @student = student
+        @course_name = course_name
+        @@all << self
+    end
+  
+    def Course.all
+        @@all
+    end
+  
+  end
+  
+    #math_class = Course.new("josh", "roger", "math")
+  
+    #p Course.all
