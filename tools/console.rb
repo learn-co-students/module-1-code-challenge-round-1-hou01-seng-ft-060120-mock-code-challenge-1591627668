@@ -10,10 +10,13 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
-
+Niketa = Student.new("Niketa")
+Shane = Tutor.new("Shane")
+Ruby = Course.new(Shane, Niketa, "Ruby")
 
 
 
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #
 binding.pry
-0
+
+
