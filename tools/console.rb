@@ -11,7 +11,7 @@ end
 # so they will be available to test and play around with in your console
 
 
-
+joe = Student.new("joe")
 
 
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #
